@@ -8,6 +8,7 @@
     "test": "test"
   },
   "devDependencies": {
+    "emojilib": "^1.1.0",
     "match-all": "^1.1.0",
     "tester": "^1.3.0"
   },
