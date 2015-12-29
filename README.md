@@ -15,18 +15,28 @@ const regexEmoji = require("regex-emoji")
     , matchAll = require("match-all")
     ;
 
-console.log(regexEmoji);
+console.log(regexEmoji());
 // => /:([a-z0-9_]+):/g
 
-console.log(matchAll(":house: sweet :house_with_garden:! :100: :clock1:", regexEmoji).toArray());
+console.log(matchAll(":house: sweet :house_with_garden:! :100: :clock1:", regexEmoji()).toArray());
 // => [ "house", "house_with_garden", "100", "clock1" ]
 ```
+
+## Documentation
+
+### `emojiRegex()`
+Returns the emoji regex value.
+
+#### Return
+- **RegExp** The emoji regex.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)
 
 ## License
 
