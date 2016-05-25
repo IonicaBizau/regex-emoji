@@ -1,14 +1,20 @@
-# regex-emoji [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/regex-emoji.svg)](https://www.npmjs.com/package/regex-emoji) [![Downloads](https://img.shields.io/npm/dt/regex-emoji.svg)](https://www.npmjs.com/package/regex-emoji) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# regex-emoji
+
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/regex-emoji.svg)](https://www.npmjs.com/package/regex-emoji) [![Downloads](https://img.shields.io/npm/dt/regex-emoji.svg)](https://www.npmjs.com/package/regex-emoji) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A regex to match the :emoji: snippets in a string.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save regex-emoji
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const regexEmoji = require("regex-emoji")
@@ -22,7 +28,8 @@ console.log(matchAll(":house: sweet :house_with_garden:! :100: :clock1:", regexE
 // => [ "house", "house_with_garden", "100", "clock1" ]
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `emojiRegex()`
 Returns the emoji regex value.
@@ -30,15 +37,19 @@ Returns the emoji regex value.
 #### Return
 - **RegExp** The emoji regex.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)
 
-## License
+ - [`emojer`](https://github.com/IonicaBizau/emojer#readme)—Emojify all the things.
+ - [`starts-with-emoji`](https://github.com/IonicaBizau/starts-with-emoji#readme)—Check if a string starts with an emoji.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
