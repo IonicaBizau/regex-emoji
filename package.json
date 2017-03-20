@@ -1,6 +1,6 @@
 {
   "name": "regex-emoji",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A regex to match the :emoji: snippets in a string.",
   "main": "lib/index.js",
   "directories": {
@@ -24,7 +24,7 @@
     "regex",
     "match"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/regex-emoji/issues"
@@ -34,12 +34,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
