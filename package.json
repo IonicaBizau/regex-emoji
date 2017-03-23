@@ -1,6 +1,6 @@
 {
   "name": "regex-emoji",
-  "version": "2.0.6",
+  "version": "1.0.0",
   "description": "A regex to match the :emoji: snippets in a string.",
   "main": "lib/index.js",
   "directories": {
