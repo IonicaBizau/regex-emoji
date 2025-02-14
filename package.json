@@ -1,6 +1,6 @@
 {
   "name": "regex-emoji",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "A regex to match the :emoji: snippets in a string.",
   "main": "lib/index.js",
   "directories": {
@@ -41,6 +41,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
